@@ -6,7 +6,7 @@ model = joblib.load('logistic_regression_model.pkl')
 
 # 2.모델 설명
 st.title('합불 분류 에이전트')
-col1, col2 = st.columns(2)
+col1, col2 = st.columns(3)
 with col1:
       st.subheader('모델 설명 ')
       st.write(' - 기계학습 알고리즘 : 로지스틱 회귀 ')
@@ -17,7 +17,10 @@ with col1:
 # 3.데이터시각화
 with col2:
       st.subheader('데이터시각화')
-      st.image('chart.png' )   # 이미지 불러오기
+      st.image('시각화1.png' )   # 이미지 불러오기
+with col3:
+      st subheader('평가 결과')
+      st.image('시각화2.png')
 
 st.subheader('모델 활용')
 st.write('**** 공부시간을 입력하세요.. 인공지능이 당신의 합격/불합격 분류 결과를 알려드립니다!')
