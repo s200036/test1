@@ -14,6 +14,7 @@ with col1:
       st.write(' - 총 데이터 건 수: 30건')
       st.write(' - 훈련    데이터 : 21건')
       st.write(' - 테스트 데이터 : 9건')
+      st.write(' - 모델 정확도 : 0.89')
 # 3.데이터시각화
 with col2:
       st.subheader('데이터시각화1')
