@@ -16,10 +16,10 @@ with col1:
       st.write(' - 테스트 데이터 : 9건')
 # 3.데이터시각화
 with col2:
-      st.subheader('데이터시각화')
+      st.subheader('데이터시각화1')
       st.image('시각화1.png' )   # 이미지 불러오기
 with col3:
-      st.subheader('평가 결과')
+      st.subheader('데이터시각화2')
       st.image('시각화2.png')
 
 st.subheader('모델 활용')
